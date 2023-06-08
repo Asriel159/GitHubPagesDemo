@@ -22,7 +22,7 @@ jobs:
     - name: Add .nojekyll file
       run: touch release/wwwroot/.nojekyll
     - name: Commit wwwroot to GitHub Pages
-      uses: Asriel159/GitHubPagesDemo/github-pages-deploy-action@vX.X.X
+      uses: Asriel159/GitHubPagesDemo/github-pages-deploy-action
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: gh-pages
